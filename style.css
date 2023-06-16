@@ -1,7 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&display=swap");
 
+/* #182996   ,      #ff4500  */
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: "Noto Sans", sans-serif;
+  color: #010400;
+}
+/* Definid Stylend System CSS */
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #7c7c7c;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c7c7c;
+  margin: 0px;
+  padding: 0px;
+}
+label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+}
+a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+button {
+  background-color: #ff4500;
+  width: 432px;
+  height: 56px;
+  border-radius: 12px;
+  color: #f1f2f6;
+  font-weight: bold;
+  font-size: 16px;
+  border-color: #ff4500;
+  border-width: 2px;
+  border-style: solid;
+}
+button.small {
+  width: 90px;
+  height: 36px;
+  background-color: #f1f2f6;
+  color: #010400;
+  font-size: 14px;
+  border-radius: 8px;
+}
+input {
+  width: 100%;
+  height: 48px;
+  background-color: #f1f2f6;
+  border-color: #7c7c7c;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  color: #010400;
+  font-size: 16px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.full-width {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.auth-container {
+  width: 432px;
+}
+/* MEDIDAS DE ESPAÇAMENTO */
+.mt.padrao {
+  margin-top: 24px;
+}
+.mt.larger {
+  margin-top: 32px;
+}
+.mt.large {
+  margin-top: 24px;
+}
+.mt.small {
+  margin-top: 12px;
+}
+.mt.smaller {
+  margin-top: 6px;
+}
+.logo {
+  width: 88px;
+  height: auto;
+}
+/* INICIO DO PROJETO */
+.auth-container {
+  background-color: #182996;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 480px;
+  height: auto;
+  min-height: 440px;
+  background-color: #f1f2f6;
+  border-radius: 24px;
+}
+.auth-container-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
 }
